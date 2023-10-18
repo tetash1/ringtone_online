@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/setrogepermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Settings For Stroage Permission" />
+    <Button
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Settings For Writing Setting" />
+    <Button
+        android:id="@+id/fronraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Ringtone From Raw Folder" />
+    <Button
+        android:id="@+id/fronstroge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ringtome Selector" />
+
+
+    <EditText
+        android:id="@+id/etURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://banglasongs.fusionbd.com/downloads/mp3/bangla/Onukabbo-Tausif/Jekhane.mp3" />
+
+    <Button
+        android:id="@+id/btnStream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stream Music" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnPlayInBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play in Background" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Audio" />
+
+    <Button
+        android:id="@+id/btnSetRingtone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set as Ringtone"
+        android:enabled="false"
+        android:layout_below="@+id/btnDownload" />
+</LinearLayout>
